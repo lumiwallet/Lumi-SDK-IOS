@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88346144215A5FEB006B6D10 /* LumiHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88346143215A5FEB006B6D10 /* LumiHandlers.swift */; };
+		CE0F46A8215BF8C000EC9B01 /* LumiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE44CF221582D3500341151 /* LumiSDK.framework */; };
+		CE0F46A9215BF8C000EC9B01 /* LumiSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEE44CF221582D3500341151 /* LumiSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEE44CF721582D3500341151 /* LumiSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE44CF521582D3500341151 /* LumiSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEE44D0221582E5D00341151 /* LumiAppsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE44D0121582E5D00341151 /* LumiAppsManager.swift */; };
+		CEE44D04215830F700341151 /* LumiEthereumCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE44D03215830F700341151 /* LumiEthereumCommand.swift */; };
+		CEE44D0C21584AFE00341151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE44D0B21584AFE00341151 /* AppDelegate.swift */; };
+		CEE44D0E21584AFE00341151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE44D0D21584AFE00341151 /* ViewController.swift */; };
+		CEE44D1121584AFE00341151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE44D0F21584AFE00341151 /* Main.storyboard */; };
+		CEE44D1321584AFF00341151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE44D1221584AFF00341151 /* Assets.xcassets */; };
+		CEE44D1621584AFF00341151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE44D1421584AFF00341151 /* LaunchScreen.storyboard */; };
+		CEE44D1C21584DC700341151 /* LumiOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE44D1B21584DC700341151 /* LumiOperation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE0F46AA215BF8C000EC9B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE44CE921582D3500341151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE44CF121582D3500341151;
+			remoteInfo = LumiSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE0F46AC215BF8C000EC9B01 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE0F46A9215BF8C000EC9B01 /* LumiSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		88346143215A5FEB006B6D10 /* LumiHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumiHandlers.swift; sourceTree = "<group>"; };
+		CEE44CF221582D3500341151 /* LumiSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LumiSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE44CF521582D3500341151 /* LumiSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LumiSDK.h; sourceTree = "<group>"; };
+		CEE44CF621582D3500341151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE44D0121582E5D00341151 /* LumiAppsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumiAppsManager.swift; sourceTree = "<group>"; };
+		CEE44D03215830F700341151 /* LumiEthereumCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumiEthereumCommand.swift; sourceTree = "<group>"; };
+		CEE44D0921584AFE00341151 /* LumiSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LumiSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE44D0B21584AFE00341151 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEE44D0D21584AFE00341151 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEE44D1021584AFE00341151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEE44D1221584AFF00341151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE44D1521584AFF00341151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEE44D1721584AFF00341151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE44D1B21584DC700341151 /* LumiOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumiOperation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE44CEE21582D3500341151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE44D0621584AFE00341151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0F46A8215BF8C000EC9B01 /* LumiSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88346142215A5FD4006B6D10 /* InWallet */ = {
+			isa = PBXGroup;
+			children = (
+				88346143215A5FEB006B6D10 /* LumiHandlers.swift */,
+			);
+			path = InWallet;
+			sourceTree = "<group>";
+		};
+		CE0F46A0215BF20600EC9B01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE44CE821582D3500341151 = {
+			isa = PBXGroup;
+			children = (
+				CEE44CF421582D3500341151 /* LumiSDK */,
+				CEE44D0A21584AFE00341151 /* LumiSDKExample */,
+				CEE44CF321582D3500341151 /* Products */,
+				CE0F46A0215BF20600EC9B01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE44CF321582D3500341151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE44CF221582D3500341151 /* LumiSDK.framework */,
+				CEE44D0921584AFE00341151 /* LumiSDKExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE44CF421582D3500341151 /* LumiSDK */ = {
+			isa = PBXGroup;
+			children = (
+				88346142215A5FD4006B6D10 /* InWallet */,
+				CEE44CFF21582E1800341151 /* InApp */,
+				CEE44CF521582D3500341151 /* LumiSDK.h */,
+				CEE44CF621582D3500341151 /* Info.plist */,
+			);
+			path = LumiSDK;
+			sourceTree = "<group>";
+		};
+		CEE44CFF21582E1800341151 /* InApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEE44D1B21584DC700341151 /* LumiOperation.swift */,
+				CEE44D0121582E5D00341151 /* LumiAppsManager.swift */,
+				CEE44D03215830F700341151 /* LumiEthereumCommand.swift */,
+			);
+			path = InApp;
+			sourceTree = "<group>";
+		};
+		CEE44D0A21584AFE00341151 /* LumiSDKExample */ = {
+			isa = PBXGroup;
+			children = (
+				CEE44D0B21584AFE00341151 /* AppDelegate.swift */,
+				CEE44D0D21584AFE00341151 /* ViewController.swift */,
+				CEE44D0F21584AFE00341151 /* Main.storyboard */,
+				CEE44D1221584AFF00341151 /* Assets.xcassets */,
+				CEE44D1421584AFF00341151 /* LaunchScreen.storyboard */,
+				CEE44D1721584AFF00341151 /* Info.plist */,
+			);
+			path = LumiSDKExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CEE44CEF21582D3500341151 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE44CF721582D3500341151 /* LumiSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CEE44CF121582D3500341151 /* LumiSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE44CFA21582D3500341151 /* Build configuration list for PBXNativeTarget "LumiSDK" */;
+			buildPhases = (
+				CEE44CED21582D3500341151 /* Sources */,
+				CEE44CEE21582D3500341151 /* Frameworks */,
+				CEE44CEF21582D3500341151 /* Headers */,
+				CEE44CF021582D3500341151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LumiSDK;
+			productName = LumiSDK;
+			productReference = CEE44CF221582D3500341151 /* LumiSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CEE44D0821584AFE00341151 /* LumiSDKExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE44D1821584AFF00341151 /* Build configuration list for PBXNativeTarget "LumiSDKExample" */;
+			buildPhases = (
+				CEE44D0521584AFE00341151 /* Sources */,
+				CEE44D0621584AFE00341151 /* Frameworks */,
+				CEE44D0721584AFE00341151 /* Resources */,
+				CE0F46AC215BF8C000EC9B01 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE0F46AB215BF8C000EC9B01 /* PBXTargetDependency */,
+			);
+			name = LumiSDKExample;
+			productName = LumiSDKExample;
+			productReference = CEE44D0921584AFE00341151 /* LumiSDKExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE44CE921582D3500341151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEE44CF121582D3500341151 = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+					};
+					CEE44D0821584AFE00341151 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = CEE44CEC21582D3500341151 /* Build configuration list for PBXProject "LumiSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE44CE821582D3500341151;
+			productRefGroup = CEE44CF321582D3500341151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE44CF121582D3500341151 /* LumiSDK */,
+				CEE44D0821584AFE00341151 /* LumiSDKExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE44CF021582D3500341151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE44D0721584AFE00341151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE44D1621584AFF00341151 /* LaunchScreen.storyboard in Resources */,
+				CEE44D1321584AFF00341151 /* Assets.xcassets in Resources */,
+				CEE44D1121584AFE00341151 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE44CED21582D3500341151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE44D1C21584DC700341151 /* LumiOperation.swift in Sources */,
+				CEE44D0221582E5D00341151 /* LumiAppsManager.swift in Sources */,
+				88346144215A5FEB006B6D10 /* LumiHandlers.swift in Sources */,
+				CEE44D04215830F700341151 /* LumiEthereumCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE44D0521584AFE00341151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE44D0E21584AFE00341151 /* ViewController.swift in Sources */,
+				CEE44D0C21584AFE00341151 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE0F46AB215BF8C000EC9B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE44CF121582D3500341151 /* LumiSDK */;
+			targetProxy = CE0F46AA215BF8C000EC9B01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEE44D0F21584AFE00341151 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE44D1021584AFE00341151 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE44D1421584AFF00341151 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE44D1521584AFF00341151 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE44CF821582D3500341151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CEE44CF921582D3500341151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEE44CFB21582D3500341151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZQUH8S2PC3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LumiSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lumiwallet.LumiSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE44CFC21582D3500341151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZQUH8S2PC3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LumiSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lumiwallet.LumiSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEE44D1921584AFF00341151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQUH8S2PC3;
+				INFOPLIST_FILE = LumiSDKExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lumiwallet.LumiSDKExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CEE44D1A21584AFF00341151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQUH8S2PC3;
+				INFOPLIST_FILE = LumiSDKExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lumiwallet.LumiSDKExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE44CEC21582D3500341151 /* Build configuration list for PBXProject "LumiSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE44CF821582D3500341151 /* Debug */,
+				CEE44CF921582D3500341151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE44CFA21582D3500341151 /* Build configuration list for PBXNativeTarget "LumiSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE44CFB21582D3500341151 /* Debug */,
+				CEE44CFC21582D3500341151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE44D1821584AFF00341151 /* Build configuration list for PBXNativeTarget "LumiSDKExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE44D1921584AFF00341151 /* Debug */,
+				CEE44D1A21584AFF00341151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE44CE921582D3500341151 /* Project object */;
+}
