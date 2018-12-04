@@ -21,11 +21,20 @@ To create a wallet operation you need to add ‘import LumiSDK’ to the top of 
 * To sign a message add the following code. Do not forget to replace “message” with a message that needs to be signed and to add currentAppScheme to your schema (your scheme setup is described below)
 
 ```
-   let lumiOperation = LumiOperation(.signTransaction(chainId: network, nonce: nonce, amount: amount, address: address, data: data, gasPrice: gasprice, gasLimit: gaslimit), completionScheme: currentAppScheme)
+let lumiOperation = LumiOperation(.signMessage(message: message), completionScheme: currentAppScheme)
 
 ```
 
 Network, nonce,  gasPrice, gasLimit are optional parameters and Lumi Collect does not process them at the time, but we will do that soon. Please do not forget to substitute all the parameters with yours and currentAppScheme with your schema which is described below.
+
+* Add the following code for signing the transaction
+
+```
+let lumiOperation = LumiOperation(.signTransaction(chainId: network, nonce: nonce, amount: amount, address: address, data: data, gasPrice: gasprice, gasLimit: gaslimit), completionScheme: currentAppScheme)
+
+```
+
+Network, nonce,  gasPrice, gasLimit are optional parameters and Lumi Collect does not process them at the time, but we will do that soon. Please do not forget to substitute all the parameters with yours and currentAppScheme with your scheme which is described below.
 
 
 * Add the following code for signing and sending the transaction
