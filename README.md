@@ -1,6 +1,17 @@
 # Lumi-SDK-IOS
 SDK for signing messages and transactions via Lumi Collect app
 
+## Add dependency
+
+LumiSDK is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
+
+```
+pod 'LumiSDK'
+
+```
+
+Run 'pod install'
+
 ## Handle Lumi callbacks
 
 In your AppDelegate add ‘import LumiSDK’ to the top of your file. 
